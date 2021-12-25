@@ -1,0 +1,224 @@
+{
+    "License": "",
+    "Account": {
+        "Username": "aldiansyah123",
+        "Password": "Aldiansyah@329",
+        "2FA": ""
+    },
+    "Play Game": "dice",
+    "DemoMode": "OFF",
+    "Currency": "doge",
+    "Show Price": "ON",
+    "Delay Bet(ms)": "0",
+    "Stopwin if Maxbet": "0",
+    "Target": {
+        "Profit (amt)": "0",
+        "Profit (%)": "100",
+        "Balance": "100000",
+        "Lose": "0"
+    },
+    "Repeat Play": {
+        "Status": "ON",
+        "Delay (sec)": "600"
+    },
+    "Auto WD": {
+        "Status": "OFF",
+        "Trigger Balance": "57",
+        "Amount WD": "7",
+        "Tip Username": "aldiansyah329",
+        "Wallet": {
+            "Is Faucetpay": "False",
+            "Address": ""
+        }
+    },
+    "Reset Seed": {
+        "Status": "ON",
+        "Start Game": "True",
+        "After Bet": "100",
+        "After Play (min)": "0"
+    },
+    "Bet Roll": {
+        "Bet High": "False",
+        "Hi / Low": {
+            "Toggle": "ON",
+            "If Lose": "4",
+            "If Win": "2"
+        }
+    },
+    "Betset": {
+        "Sicepat": {
+            "Toggle": "OFF",
+            "Base": "0.0001",
+            "Profit Reset": "0.00000001",
+            "Chance Win": {
+                "Min": "85",
+                "Max": "88"
+            },
+            "Chance Lose": {
+                "Min": "7",
+                "Max": "9"
+            }
+        },
+        "Sigesit": {
+            "Toggle": "ON",
+            "Base": "0.00001",
+            "Profit Reset": "0.00000001",
+            "Cut Lose": "5",
+            "Preroll": "3",
+            "Multipler": "1.12",
+            "Chance Win": {
+                "Min": "59",
+                "Max": "69"
+            },
+            "Chance Lose": {
+                "Min": "23",
+                "Max": "25"
+            }
+        },
+        "Marti": {
+            "Toggle": "OFF",
+            "Base": "0.00000100",
+            "Chance": {
+                "Min": "48",
+                "Max": "48"
+            },
+            "If Win": "1.055",
+            "If Lose": "2.49",
+            "Reset if profit": "0.00000001",
+            "Reset if win": "0",
+            "Reset if lose": "0",
+            "Reset if maxbet": "0"
+        },
+        "Preroll": {
+            "Toggle": "OFF",
+            "Base": "0.00000100",
+            "Profit Reset": "0.00000001",
+            "Preroll": "5",
+            "Chance": {
+                "Min": "20",
+                "Max": "24"
+            },
+            "If Win": "1",
+            "If Lose": "1.4"
+        },
+        "DAlembert Wannabe": {
+            "Toggle": "OFF",
+            "Base": "0.000001",
+            "Profit Reset": "0.0001",
+            "Chance": {
+                "Min": "12",
+                "Max": "24"
+            }
+        },
+        "Fibonacci": {
+            "Toggle": "OFF",
+            "Base": "0.0001",
+            "Profit Reset": "0.0002",
+            "Chance": {
+                "Min": "41",
+                "Max": "43"
+            }
+        },
+        "Wageran": {
+            "Toggle": "off",
+            "Target Wager": "5",
+            "Wager": {
+                "Base": "0.1",
+                "CHMin": "94.1",
+                "CHMax": "94.7"
+            },
+            "Recovery": {
+                "Base": "0.001",
+                "CHMin": "20.2",
+                "CHMax": "24.4",
+                "If Win": "1",
+                "If Lose": "1.4",
+                "Preroll": "3",
+                "Reset if profit": "0.0000001"
+            }
+        },
+        "Autobot": {
+            "Toggle": "OFF",
+            "Chance": {
+                "Min": "21",
+                "Max": "25"
+            }
+        },
+        "MrBOT": {
+            "Toggle": "OFF",
+            "Auto Shoot": "False",
+            "Algo (1 - 4)": "1"
+        },
+        "JumpJack": {
+            "Toggle": "OFF",
+            "Reset Jump if Profit": "0.0001",
+            "Reset Jump if Win": "0",
+            "Continuous Bet": "False",
+            "Mode": [
+                {
+                    "Name": "Satu",
+                    "Status": "ON",
+                    "Base": "0.00000100",
+                    "If Win": "1",
+                    "If Lose": "1",
+                    "Reset if profit": "0",
+                    "Reset if win": "0",
+                    "Reset if lose": "0",
+                    "Reset if maxbet": "0",
+                    "Chance": {
+                        "Min": "89",
+                        "Max": "91"
+                    },
+                    "Kondisi Jump": {
+                        "After Bet": "0",
+                        "Win Streak": "0",
+                        "Lose Streak": "1",
+                        "After Profit": "0"
+                    }
+                },
+                {
+                    "Name": "Dua",
+                    "Status": "ON",
+                    "Base": "0.00000600",
+                    "If Win": "1",
+                    "If Lose": "1.45",
+                    "Reset if profit": "0.00000001",
+                    "Reset if win": "0",
+                    "Reset if lose": "0",
+                    "Reset if maxbet": "0",
+                    "Chance": {
+                        "Min": "18",
+                        "Max": "30.5"
+                    },
+                    "Kondisi Jump": {
+                        "After Bet": "0",
+                        "Win Streak": "1",
+                        "Lose Streak": "0",
+                        "After Profit": "0"
+                    }
+                },
+                {
+                    "Name": "Tiga",
+                    "Status": "Off",
+                    "Base": "0.00000600",
+                    "If Win": "1",
+                    "If Lose": "1.4",
+                    "Reset if profit": "0.0000001",
+                    "Reset if win": "1",
+                    "Reset if lose": "0",
+                    "Reset if maxbet": "0",
+                    "Chance": {
+                        "Min": "24",
+                        "Max": "26"
+                    },
+                    "Kondisi Jump": {
+                        "After Bet": "0",
+                        "Win Streak": "1",
+                        "Lose Streak": "0",
+                        "After Profit": "0"
+                    }
+                }
+            ]
+        }
+    }
+}
